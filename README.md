@@ -23,3 +23,8 @@ Files of interest
 - `data/` — placeholder project and writing metadata
 
 Add your project repository links in `data/projects.js` and place PDF files for essays in the `public/` folder, then update `data/writings.js` links accordingly.
+
+GitHub Pages deploy
+
+- The workflow builds the site and publishes the generated `out/` directory to the `gh-pages` branch.
+- Once the action completes, enable Pages in repo settings and use `https://black-bird5.github.io/William-Zuo-Personal-Website`.
