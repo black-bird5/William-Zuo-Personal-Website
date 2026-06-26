@@ -4,7 +4,7 @@ const writings = [
     title: 'Animal Ethics Article',
     venue: 'Selected Essay',
     year: '2024',
-    link: '/animal-ethics-article.pdf',
+    link: 'animal-ethics-article.pdf',
     abstract: 'A concise ethical analysis of animal welfare and moral responsibility in contemporary food systems.'
   },
   {
@@ -12,7 +12,7 @@ const writings = [
     title: 'Can Russellian Monism Accommodate Modal Recombination?',
     venue: 'Philosophy Essay',
     year: '2024',
-    link: '/can-russellian-monism-accommodate-modal-recombination.pdf',
+    link: 'can-russellian-monism-accommodate-modal-recombination.pdf',
     abstract: 'Examines whether Russellian monism can preserve modal structure under recombination without losing metaphysical coherence.'
   },
   {
@@ -20,7 +20,7 @@ const writings = [
     title: 'How Fine-Grained Is Phenomenal Consciousness?',
     venue: 'Philosophy Essay',
     year: '2025',
-    link: '/how-fine-grained-is-phenomenal-consciousness.pdf',
+    link: 'how-fine-grained-is-phenomenal-consciousness.pdf',
     abstract: 'Investigates the granularity of conscious experience and the implications for theories of perceptual content.'
   },
   {
@@ -28,7 +28,7 @@ const writings = [
     title: 'Permutation Invariance and Paradox',
     venue: 'Logic Essay',
     year: '2025',
-    link: '/permutation-invariance-and-paradox.pdf',
+    link: 'permutation-invariance-and-paradox.pdf',
     abstract: 'Analyzes paradoxes that arise from permutation invariance in formal systems and their philosophical consequences.'
   },
   {
@@ -36,7 +36,7 @@ const writings = [
     title: 'Vegetarian Article',
     venue: 'Selected Essay',
     year: '2024',
-    link: '/vegetarian-article.pdf',
+    link: 'vegetarian-article.pdf',
     abstract: 'Offers a clear, evidence-based argument for the ethical and environmental case for vegetarian practice.'
   }
 ]
