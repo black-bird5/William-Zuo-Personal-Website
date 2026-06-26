@@ -9,17 +9,17 @@ export default function Home() {
     <div className="prose prose-lg max-w-none py-12">
       <section id="about">
         <SectionContainer title="About Me">
-          <h1 className="text-4xl font-serif">William</h1>
+          <h1 className="text-4xl font-serif">William Zuo</h1>
           <p className="text-lg text-gray-800 mt-1">Statistics & Data Science Undergraduate, Philosophy Minor</p>
           <p className="mt-4">I work at the intersection of rigorous statistical methods and philosophical theory. Currently pursuing an honors thesis on applications of learning theory to causal transportability.</p>
 
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h3 className="font-semibold">Academic Profile</h3>
-              <ul className="mt-2 text-sm text-gray-700">
+              <ul className="mt-2 text-sm text-gray-700 dark:text-slate-300">
                 <li><strong>Major:</strong> Statistics and Data Science</li>
                 <li><strong>Selected Coursework:</strong> Graduate Philosophy Courses; Graduate Mathematical Statistics Course</li>
-                <li><strong>Skills:</strong> Python, R, SQL (BigQuery/PostgreSQL), noSQL (MongoDB/Neo4j), LaTeX</li>
+                <li><strong>Skills:</strong> Python, R, SQL (BigQuery/PostgreSQL), noSQL (MongoDB/Neo4j), Git, Linux, HTML, LaTeX</li>
                 <li><strong>GPA:</strong> 4.0 in Math & Statistics Courses</li>
               </ul>
             </div>
