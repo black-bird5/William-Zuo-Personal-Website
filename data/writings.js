@@ -1,43 +1,43 @@
 const writings = [
   {
     id: 'w1',
-    title: 'Animal Ethics Article',
-    venue: 'Selected Essay',
+    title: 'Going Green: The Case Against Meat',
+    venue: 'Popular Article',
     year: '2024',
-    link: 'animal-ethics-article.pdf',
-    abstract: 'A concise ethical analysis of animal welfare and moral responsibility in contemporary food systems.'
+    link: 'vegetarian.pdf',
+    abstract: 'In this article, I present the ethical case for vegetarianism.'
   },
   {
     id: 'w2',
-    title: 'Can Russellian Monism Accommodate Modal Recombination?',
-    venue: 'Philosophy Essay',
+    title: 'Animal Progressivism: An Evaluation of the Status of Animals in Contemporary Society',
+    venue: 'Popular Article',
     year: '2024',
-    link: 'can-russellian-monism-accommodate-modal-recombination.pdf',
-    abstract: 'Examines whether Russellian monism can preserve modal structure under recombination without losing metaphysical coherence.'
+    link: 'animal-ethics-article.pdf',
+    abstract: 'In this article, I advance the case for ethical vegetarianism, exposing the audience to more specialized topics in academic animal ethics.'
   },
   {
     id: 'w3',
-    title: 'How Fine-Grained Is Phenomenal Consciousness?',
-    venue: 'Philosophy Essay',
+    title: 'Can Russellian Monism Accommodate Modal Recombination?',
+    venue: 'Philosophy of Mind Essay',
     year: '2025',
-    link: 'how-fine-grained-is-phenomenal-consciousness.pdf',
-    abstract: 'Investigates the granularity of conscious experience and the implications for theories of perceptual content.'
+    link: 'can-russellian-monism-accommodate-modal-recombination.pdf',
+    abstract: 'In this paper, I provide a novel argument against Russellian Monism on Humean grounds. Furthermore, I argue why appealing to essentialist explanations does no favors for the Russellian Monist.'
   },
   {
     id: 'w4',
-    title: 'Permutation Invariance and Paradox',
+    title: 'How Fine-Grained Is Phenomenal Consciousness?',
     venue: 'Logic Essay',
     year: '2025',
-    link: 'permutation-invariance-and-paradox.pdf',
-    abstract: 'Analyzes paradoxes that arise from permutation invariance in formal systems and their philosophical consequences.'
+    link: 'how-fine-grained-is-phenomenal-consciousness.pdf',
+    abstract: 'In this paper, I make an argument in the language of higher-order logic against Jonathan Schaffer\'s Ground Functionalism in a way analogous to the Russell-Myhill Paradox.'
   },
   {
     id: 'w5',
-    title: 'Vegetarian Article',
-    venue: 'Selected Essay',
-    year: '2024',
-    link: 'vegetarian-article.pdf',
-    abstract: 'Offers a clear, evidence-based argument for the ethical and environmental case for vegetarian practice.'
+    title: 'Permutation Invariance and Paradox',
+    venue: 'Ethics Essay',
+    year: '2026',
+    link: 'permutation-invariance-and-paradox.pdf',
+    abstract: 'In this paper, I derive an new argument against Permutation Invariance in an infinite population context by line of reasoning analogous to the Banach-Tarski Paradox.'
   }
 ]
 
