@@ -1,5 +1,7 @@
 import SectionContainer from '../components/SectionContainer'
+import ProjectCard from '../components/ProjectCard'
 import WritingItem from '../components/WritingItem'
+import projects from '../data/projects'
 import writings from '../data/writings'
 
 export default function Home() {
@@ -52,7 +54,11 @@ export default function Home() {
 
       <section id="projects">
         <SectionContainer title="Technical Projects">
-          <p className="text-sm text-gray-700">More projects will be added here soon.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {projects.map((p) => (
+              <ProjectCard key={p.id} project={p} />
+            ))}
+          </div>
         </SectionContainer>
       </section>
 
