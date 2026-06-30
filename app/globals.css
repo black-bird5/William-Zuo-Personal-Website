@@ -6,6 +6,7 @@
 
 :root{
   --accent: #2f3d66;
+  color-scheme: light;
 }
 
 html,body,#root{
@@ -16,10 +17,19 @@ html{
   scroll-behavior: smooth;
 }
 
+html.dark {
+  color-scheme: dark;
+}
+
 body{
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   color: #0b0b0b;
   background: #ffffff;
+}
+
+html.dark body {
+  color: #f8fafc;
+  background-color: #020617;
 }
 
 h1,h2,h3,h4{
@@ -29,3 +39,22 @@ h1,h2,h3,h4{
 .text-accent{ color: var(--accent) }
 
 .prose a{ color: var(--accent) }
+
+html.dark .text-gray-700,
+html.dark .text-gray-800,
+html.dark .text-gray-600,
+html.dark .text-slate-300,
+html.dark .text-slate-800 {
+  color: #f8fafc;
+}
+
+html.dark .prose p,
+html.dark .prose li,
+html.dark .prose strong,
+html.dark .prose a {
+  color: #f8fafc;
+}
+
+html.dark .prose a {
+  color: #93c5fd;
+}

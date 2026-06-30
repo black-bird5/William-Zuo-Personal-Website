@@ -19,7 +19,7 @@ export default function Home() {
               <ul className="mt-2 text-sm text-gray-700 dark:text-slate-300">
                 <li><strong>Major:</strong> Statistics and Data Science</li>
                 <li><strong>Selected Coursework:</strong> Graduate Philosophy Courses; Graduate Mathematical Statistics Course</li>
-                <li><strong>Skills:</strong> Python, R, SQL (BigQuery/PostgreSQL), noSQL (MongoDB/Neo4j), Git, Linux, HTML, LaTeX</li>
+                <li><strong>Skills:</strong> Python, R, SQL (BigQuery/PostgreSQL), NoSQL (MongoDB/Neo4j), Git, Linux, HTML, LaTeX</li>
                 <li><strong>GPA:</strong> 4.0 in Math & Statistics Courses</li>
               </ul>
             </div>

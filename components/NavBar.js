@@ -7,9 +7,10 @@ export default function NavBar() {
 
   useEffect(() => {
     const storedTheme = window.localStorage.getItem('theme')
-    const initialTheme = storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+    const initialTheme = storedTheme === 'dark' ? 'dark' : 'light'
     setTheme(initialTheme)
     document.documentElement.classList.toggle('dark', initialTheme === 'dark')
+    document.documentElement.style.colorScheme = initialTheme === 'dark' ? 'dark' : 'light'
   }, [])
 
   const toggleTheme = () => {
